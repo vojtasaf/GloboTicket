@@ -1,47 +1,41 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
+import 'react-native-gesture-handler';
 import React from 'react';
 import type {Node} from 'react';
 import { StatusBar } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 import Home from './Home';
+import Tickets from './Tickets';
 
-const Section = ({children, title}): Node => {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-};
+const Stack = createStackNavigator();
 
-const App: () => Node = () => {
+const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle='dark-content' hidden />
-      <Home username='Sports Fan' />
+      <NavigationContainer>
+        <Stack.Navigator
+          initialRouteName='Home'
+          headerMode='screen'
+        >
+          <Stack.Screen
+            name='Home'
+            options={{
+              headerShown: false
+            }}
+          >
+            {(props) => <Home {...props} username='Sports Fan' /> }
+          </Stack.Screen>
+          <Stack.Screen
+            name='Tickets'
+            component={Tickets}
+            options={{
+              headerTitleAlign: 'center',
+              headerTitleStyle: {fontFamily: 'Ubuntu-Regular'}
+            }}
+          />
+        </Stack.Navigator>
+      </NavigationContainer>
     </>
   );
 };
