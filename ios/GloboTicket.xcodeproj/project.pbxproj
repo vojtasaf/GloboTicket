@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* GloboTicketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GloboTicketTests.m */; };
+		03E5DE17B941497A8403104A /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51754C7846F7426892D8213F /* Ubuntu-Regular.ttf */; };
+		1086E4279CC01D8645CD7F3D /* libPods-GloboTicket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BEFAC28820C03030D21DBA /* libPods-GloboTicket.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		7C6EBDD560A544EEB47D127F /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A69CEA359094FFDBC5671C1 /* Ubuntu-Light.ttf */; };
-		03E5DE17B941497A8403104A /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51754C7846F7426892D8213F /* Ubuntu-Regular.ttf */; };
+		80277FD405B220BEC382CDC4 /* libPods-GloboTicket-GloboTicketTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DC14EE1A55F57FF70664A3 /* libPods-GloboTicket-GloboTicketTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +32,22 @@
 		00E356EE1AD99517003FC87E /* GloboTicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloboTicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* GloboTicketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GloboTicketTests.m; sourceTree = "<group>"; };
+		137ABC7E9B8029F57E9AD88B /* Pods-GloboTicket-GloboTicketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GloboTicket-GloboTicketTests.release.xcconfig"; path = "Target Support Files/Pods-GloboTicket-GloboTicketTests/Pods-GloboTicket-GloboTicketTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* GloboTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GloboTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GloboTicket/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GloboTicket/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GloboTicket/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GloboTicket/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GloboTicket/main.m; sourceTree = "<group>"; };
+		42BEFAC28820C03030D21DBA /* libPods-GloboTicket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GloboTicket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B20A3A118549BB9E9E0818E /* Pods-GloboTicket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GloboTicket.debug.xcconfig"; path = "Target Support Files/Pods-GloboTicket/Pods-GloboTicket.debug.xcconfig"; sourceTree = "<group>"; };
+		51754C7846F7426892D8213F /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Regular.ttf"; path = "../assets/fonts/Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		57DC14EE1A55F57FF70664A3 /* libPods-GloboTicket-GloboTicketTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GloboTicket-GloboTicketTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A69CEA359094FFDBC5671C1 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Light.ttf"; path = "../assets/fonts/Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		6A95D1F1B784C02CE54A90A9 /* Pods-GloboTicket-GloboTicketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GloboTicket-GloboTicketTests.debug.xcconfig"; path = "Target Support Files/Pods-GloboTicket-GloboTicketTests/Pods-GloboTicket-GloboTicketTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GloboTicket/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1CBCB90138E4AB5B0991701 /* Pods-GloboTicket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GloboTicket.release.xcconfig"; path = "Target Support Files/Pods-GloboTicket/Pods-GloboTicket.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		5A69CEA359094FFDBC5671C1 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Light.ttf"; path = "../assets/fonts/Ubuntu-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		51754C7846F7426892D8213F /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Regular.ttf"; path = "../assets/fonts/Ubuntu-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80277FD405B220BEC382CDC4 /* libPods-GloboTicket-GloboTicketTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1086E4279CC01D8645CD7F3D /* libPods-GloboTicket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +104,32 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				42BEFAC28820C03030D21DBA /* libPods-GloboTicket.a */,
+				57DC14EE1A55F57FF70664A3 /* libPods-GloboTicket-GloboTicketTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79C618035A414DAB803F1F7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A69CEA359094FFDBC5671C1 /* Ubuntu-Light.ttf */,
+				51754C7846F7426892D8213F /* Ubuntu-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+		80C53B7AE7BA3BC7F0163C86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B20A3A118549BB9E9E0818E /* Pods-GloboTicket.debug.xcconfig */,
+				C1CBCB90138E4AB5B0991701 /* Pods-GloboTicket.release.xcconfig */,
+				6A95D1F1B784C02CE54A90A9 /* Pods-GloboTicket-GloboTicketTests.debug.xcconfig */,
+				137ABC7E9B8029F57E9AD88B /* Pods-GloboTicket-GloboTicketTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -114,6 +148,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				79C618035A414DAB803F1F7C /* Resources */,
+				80C53B7AE7BA3BC7F0163C86 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -129,16 +164,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79C618035A414DAB803F1F7C /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				5A69CEA359094FFDBC5671C1 /* Ubuntu-Light.ttf */,
-				51754C7846F7426892D8213F /* Ubuntu-Regular.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GloboTicketTests" */;
 			buildPhases = (
+				65B019CC9254989F00E700A9 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				0D0AC7F265A0145A6E1B71F4 /* [CP] Embed Pods Frameworks */,
+				91BD620F96B00622A73AE9CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,11 +192,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GloboTicket" */;
 			buildPhases = (
+				DC762F58C2031AB04A52FA67 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				3D64830D83A460E35DF5A0F0 /* [CP] Embed Pods Frameworks */,
+				1806B731005792E55C107D8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +282,118 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
+		0D0AC7F265A0145A6E1B71F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GloboTicket-GloboTicketTests/Pods-GloboTicket-GloboTicketTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GloboTicket-GloboTicketTests/Pods-GloboTicket-GloboTicketTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GloboTicket-GloboTicketTests/Pods-GloboTicket-GloboTicketTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1806B731005792E55C107D8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GloboTicket/Pods-GloboTicket-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GloboTicket/Pods-GloboTicket-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GloboTicket/Pods-GloboTicket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D64830D83A460E35DF5A0F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GloboTicket/Pods-GloboTicket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GloboTicket/Pods-GloboTicket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GloboTicket/Pods-GloboTicket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65B019CC9254989F00E700A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GloboTicket-GloboTicketTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91BD620F96B00622A73AE9CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GloboTicket-GloboTicketTests/Pods-GloboTicket-GloboTicketTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GloboTicket-GloboTicketTests/Pods-GloboTicket-GloboTicketTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GloboTicket-GloboTicketTests/Pods-GloboTicket-GloboTicketTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC762F58C2031AB04A52FA67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GloboTicket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,6 +446,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A95D1F1B784C02CE54A90A9 /* Pods-GloboTicket-GloboTicketTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -329,6 +473,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137ABC7E9B8029F57E9AD88B /* Pods-GloboTicket-GloboTicketTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -352,6 +497,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B20A3A118549BB9E9E0818E /* Pods-GloboTicket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -377,6 +523,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1CBCB90138E4AB5B0991701 /* Pods-GloboTicket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -431,6 +578,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -495,6 +643,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
